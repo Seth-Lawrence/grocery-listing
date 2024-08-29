@@ -151,5 +151,4 @@ public class Recipe {
 
   @Column(name = "measurement20")
   private String measurement20 = null;
-
 }
