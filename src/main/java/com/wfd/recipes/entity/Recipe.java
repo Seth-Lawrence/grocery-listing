@@ -7,11 +7,15 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
-import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
 
 
-@AllArgsConstructor
+@RequiredArgsConstructor
 @Entity
+@Getter
+@Setter
 @Table(name = "recipes")
 public class Recipe {
 
