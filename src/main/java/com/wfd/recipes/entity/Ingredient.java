@@ -20,7 +20,6 @@ public class Ingredient {
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
-
   @Column(name = "ingredient", nullable = false)
   private String ingredient;
 }
