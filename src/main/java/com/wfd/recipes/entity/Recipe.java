@@ -203,6 +203,4 @@ public class Recipe {
     this.measurement19 = recipe.get(measurement19);
     this.measurement20 = recipe.get(measurement20);
   }
-
-
 }
