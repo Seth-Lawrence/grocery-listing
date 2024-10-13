@@ -33,8 +33,8 @@ public class Recipe {
   @Column(name = "instructions")
   private String instructions;
 
-  @Column(name = "pictureSrc")
-  private String pictureSrc;
+  @Column(name = "picture")
+  private String picture;
 
   @Column(name = "tags")
   private String tags = null;
@@ -156,12 +156,16 @@ public class Recipe {
   @Column(name = "measurement20")
   private String measurement20 = null;
 
+  public Recipe() {
+
+  }
+
   public Recipe(HashMap<String, String> recipe) {
 
     this.name = recipe.get(name);
     this.category = recipe.get(name);
     this.instructions = recipe.get(instructions);
-    this.pictureSrc = recipe.get(pictureSrc);
+    this.picture = recipe.get(picture);
     this.tags = recipe.get(tags);
     this.youtube = recipe.get(youtube);
     this.ingredient1 = recipe.get(ingredient1);
