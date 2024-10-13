@@ -1,5 +1,7 @@
 package com.wfd.recipes.entity;
 
+import java.util.HashMap;
+
 import io.micrometer.common.lang.NonNull;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -7,15 +9,13 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
+// import lombok.Getter;
+// import lombok.RequiredArgsConstructor;
+// import lombok.Setter;
 
 
-@RequiredArgsConstructor
+
 @Entity
-@Getter
-@Setter
 @Table(name = "recipes")
 public class Recipe {
 
@@ -155,4 +155,54 @@ public class Recipe {
 
   @Column(name = "measurement20")
   private String measurement20 = null;
+
+  public Recipe(HashMap<String, String> recipe) {
+
+    this.name = recipe.get(name);
+    this.category = recipe.get(name);
+    this.instructions = recipe.get(instructions);
+    this.picture = recipe.get(picture);
+    this.tags = recipe.get(tags);
+    this.youtube = recipe.get(youtube);
+    this.ingredient1 = recipe.get(ingredient1);
+    this.ingredient3 = recipe.get(ingredient3);
+    this.ingredient4 = recipe.get(ingredient4);
+    this.ingredient5 = recipe.get(ingredient5);
+    this.ingredient6 = recipe.get(ingredient6);
+    this.ingredient7 = recipe.get(ingredient7);
+    this.ingredient8 = recipe.get(ingredient8);
+    this.ingredient9 = recipe.get(ingredient9);
+    this.ingredient10 = recipe.get(ingredient10);
+    this.ingredient11 = recipe.get(ingredient11);
+    this.ingredient12 = recipe.get(ingredient12);
+    this.ingredient13 = recipe.get(ingredient13);
+    this.ingredient14 = recipe.get(ingredient14);
+    this.ingredient15 = recipe.get(ingredient15);
+    this.ingredient16 = recipe.get(ingredient16);
+    this.ingredient17 = recipe.get(ingredient17);
+    this.ingredient18 = recipe.get(ingredient18);
+    this.ingredient19 = recipe.get(ingredient19);
+    this.ingredient20 = recipe.get(ingredient20);
+    this.measurement1 = recipe.get(measurement1);
+    this.measurement3 = recipe.get(measurement3);
+    this.measurement4 = recipe.get(measurement4);
+    this.measurement5 = recipe.get(measurement5);
+    this.measurement6 = recipe.get(measurement6);
+    this.measurement7 = recipe.get(measurement7);
+    this.measurement8 = recipe.get(measurement8);
+    this.measurement9 = recipe.get(measurement9);
+    this.measurement10 = recipe.get(measurement10);
+    this.measurement11 = recipe.get(measurement11);
+    this.measurement12 = recipe.get(measurement12);
+    this.measurement13 = recipe.get(measurement13);
+    this.measurement14 = recipe.get(measurement14);
+    this.measurement15 = recipe.get(measurement15);
+    this.measurement16 = recipe.get(measurement16);
+    this.measurement17 = recipe.get(measurement17);
+    this.measurement18 = recipe.get(measurement18);
+    this.measurement19 = recipe.get(measurement19);
+    this.measurement20 = recipe.get(measurement20);
+  }
+
+
 }
