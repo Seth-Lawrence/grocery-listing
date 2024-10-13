@@ -5,14 +5,8 @@ import jakarta.persistence.Table;
 import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
-import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
 
 
-@RequiredArgsConstructor
-@Getter
-@Setter
 @Table(name = "ingredients")
 public class Ingredient {
 
