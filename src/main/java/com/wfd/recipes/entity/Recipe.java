@@ -161,7 +161,7 @@ public class Recipe {
     this.name = recipe.get(name);
     this.category = recipe.get(name);
     this.instructions = recipe.get(instructions);
-    this.picture = recipe.get(picture);
+    this.pictureSrc = recipe.get(pictureSrc);
     this.tags = recipe.get(tags);
     this.youtube = recipe.get(youtube);
     this.ingredient1 = recipe.get(ingredient1);
