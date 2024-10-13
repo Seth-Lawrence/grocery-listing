@@ -9,7 +9,12 @@ import com.wfd.recipes.repository.RecipeRepository;
 @Service
 public class RecipeServiceImpl implements RecipeService {
 
-  private RecipeRepository recipeRepository;
+  private final RecipeRepository recipeRepository;
+
+  public RecipeServiceImpl(RecipeRepository recipeRepository) {
+    this.recipeRepository = recipeRepository;
+  }
+
 
   @Override
   public Recipe getRecipe(Long id) {
