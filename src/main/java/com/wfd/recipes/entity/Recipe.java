@@ -207,4 +207,363 @@ public class Recipe {
     this.measurement19 = recipe.get(measurement19);
     this.measurement20 = recipe.get(measurement20);
   }
+
+  public Long getId() {
+    return this.id;
+  }
+
+  public void setId(Long id) {
+    this.id = id;
+  }
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public String getCategory() {
+    return this.category;
+  }
+
+  public void setCategory(String category) {
+    this.category = category;
+  }
+
+  public String getInstructions() {
+    return this.instructions;
+  }
+
+  public void setInstructions(String instructions) {
+    this.instructions = instructions;
+  }
+
+  public String getPicture() {
+    return this.picture;
+  }
+
+  public void setPicture(String picture) {
+    this.picture = picture;
+  }
+
+  public String getTags() {
+    return this.tags;
+  }
+
+  public void setTags(String tags) {
+    this.tags = tags;
+  }
+
+  public String getYoutube() {
+    return this.youtube;
+  }
+
+  public void setYoutube(String youtube) {
+    this.youtube = youtube;
+  }
+
+  public String getIngredient1() {
+    return this.ingredient1;
+  }
+
+  public void setIngredient1(String ingredient1) {
+    this.ingredient1 = ingredient1;
+  }
+
+  public String getIngredient3() {
+    return this.ingredient3;
+  }
+
+  public void setIngredient3(String ingredient3) {
+    this.ingredient3 = ingredient3;
+  }
+
+  public String getIngredient4() {
+    return this.ingredient4;
+  }
+
+  public void setIngredient4(String ingredient4) {
+    this.ingredient4 = ingredient4;
+  }
+
+  public String getIngredient5() {
+    return this.ingredient5;
+  }
+
+  public void setIngredient5(String ingredient5) {
+    this.ingredient5 = ingredient5;
+  }
+
+  public String getIngredient6() {
+    return this.ingredient6;
+  }
+
+  public void setIngredient6(String ingredient6) {
+    this.ingredient6 = ingredient6;
+  }
+
+  public String getIngredient7() {
+    return this.ingredient7;
+  }
+
+  public void setIngredient7(String ingredient7) {
+    this.ingredient7 = ingredient7;
+  }
+
+  public String getIngredient8() {
+    return this.ingredient8;
+  }
+
+  public void setIngredient8(String ingredient8) {
+    this.ingredient8 = ingredient8;
+  }
+
+  public String getIngredient9() {
+    return this.ingredient9;
+  }
+
+  public void setIngredient9(String ingredient9) {
+    this.ingredient9 = ingredient9;
+  }
+
+  public String getIngredient10() {
+    return this.ingredient10;
+  }
+
+  public void setIngredient10(String ingredient10) {
+    this.ingredient10 = ingredient10;
+  }
+
+  public String getIngredient11() {
+    return this.ingredient11;
+  }
+
+  public void setIngredient11(String ingredient11) {
+    this.ingredient11 = ingredient11;
+  }
+
+  public String getIngredient12() {
+    return this.ingredient12;
+  }
+
+  public void setIngredient12(String ingredient12) {
+    this.ingredient12 = ingredient12;
+  }
+
+  public String getIngredient13() {
+    return this.ingredient13;
+  }
+
+  public void setIngredient13(String ingredient13) {
+    this.ingredient13 = ingredient13;
+  }
+
+  public String getIngredient14() {
+    return this.ingredient14;
+  }
+
+  public void setIngredient14(String ingredient14) {
+    this.ingredient14 = ingredient14;
+  }
+
+  public String getIngredient15() {
+    return this.ingredient15;
+  }
+
+  public void setIngredient15(String ingredient15) {
+    this.ingredient15 = ingredient15;
+  }
+
+  public String getIngredient16() {
+    return this.ingredient16;
+  }
+
+  public void setIngredient16(String ingredient16) {
+    this.ingredient16 = ingredient16;
+  }
+
+  public String getIngredient17() {
+    return this.ingredient17;
+  }
+
+  public void setIngredient17(String ingredient17) {
+    this.ingredient17 = ingredient17;
+  }
+
+  public String getIngredient18() {
+    return this.ingredient18;
+  }
+
+  public void setIngredient18(String ingredient18) {
+    this.ingredient18 = ingredient18;
+  }
+
+  public String getIngredient19() {
+    return this.ingredient19;
+  }
+
+  public void setIngredient19(String ingredient19) {
+    this.ingredient19 = ingredient19;
+  }
+
+  public String getIngredient20() {
+    return this.ingredient20;
+  }
+
+  public void setIngredient20(String ingredient20) {
+    this.ingredient20 = ingredient20;
+  }
+
+  public String getMeasurement1() {
+    return this.measurement1;
+  }
+
+  public void setMeasurement1(String measurement1) {
+    this.measurement1 = measurement1;
+  }
+
+  public String getMeasurement3() {
+    return this.measurement3;
+  }
+
+  public void setMeasurement3(String measurement3) {
+    this.measurement3 = measurement3;
+  }
+
+  public String getMeasurement4() {
+    return this.measurement4;
+  }
+
+  public void setMeasurement4(String measurement4) {
+    this.measurement4 = measurement4;
+  }
+
+  public String getMeasurement5() {
+    return this.measurement5;
+  }
+
+  public void setMeasurement5(String measurement5) {
+    this.measurement5 = measurement5;
+  }
+
+  public String getMeasurement6() {
+    return this.measurement6;
+  }
+
+  public void setMeasurement6(String measurement6) {
+    this.measurement6 = measurement6;
+  }
+
+  public String getMeasurement7() {
+    return this.measurement7;
+  }
+
+  public void setMeasurement7(String measurement7) {
+    this.measurement7 = measurement7;
+  }
+
+  public String getMeasurement8() {
+    return this.measurement8;
+  }
+
+  public void setMeasurement8(String measurement8) {
+    this.measurement8 = measurement8;
+  }
+
+  public String getMeasurement9() {
+    return this.measurement9;
+  }
+
+  public void setMeasurement9(String measurement9) {
+    this.measurement9 = measurement9;
+  }
+
+  public String getMeasurement10() {
+    return this.measurement10;
+  }
+
+  public void setMeasurement10(String measurement10) {
+    this.measurement10 = measurement10;
+  }
+
+  public String getMeasurement11() {
+    return this.measurement11;
+  }
+
+  public void setMeasurement11(String measurement11) {
+    this.measurement11 = measurement11;
+  }
+
+  public String getMeasurement12() {
+    return this.measurement12;
+  }
+
+  public void setMeasurement12(String measurement12) {
+    this.measurement12 = measurement12;
+  }
+
+  public String getMeasurement13() {
+    return this.measurement13;
+  }
+
+  public void setMeasurement13(String measurement13) {
+    this.measurement13 = measurement13;
+  }
+
+  public String getMeasurement14() {
+    return this.measurement14;
+  }
+
+  public void setMeasurement14(String measurement14) {
+    this.measurement14 = measurement14;
+  }
+
+  public String getMeasurement15() {
+    return this.measurement15;
+  }
+
+  public void setMeasurement15(String measurement15) {
+    this.measurement15 = measurement15;
+  }
+
+  public String getMeasurement16() {
+    return this.measurement16;
+  }
+
+  public void setMeasurement16(String measurement16) {
+    this.measurement16 = measurement16;
+  }
+
+  public String getMeasurement17() {
+    return this.measurement17;
+  }
+
+  public void setMeasurement17(String measurement17) {
+    this.measurement17 = measurement17;
+  }
+
+  public String getMeasurement18() {
+    return this.measurement18;
+  }
+
+  public void setMeasurement18(String measurement18) {
+    this.measurement18 = measurement18;
+  }
+
+  public String getMeasurement19() {
+    return this.measurement19;
+  }
+
+  public void setMeasurement19(String measurement19) {
+    this.measurement19 = measurement19;
+  }
+
+  public String getMeasurement20() {
+    return this.measurement20;
+  }
+
+  public void setMeasurement20(String measurement20) {
+    this.measurement20 = measurement20;
+  }
+
+  public String getName() {
+    return this.name;
+  }
 }
