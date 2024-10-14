@@ -8,7 +8,6 @@ import com.wfd.recipes.entity.Recipe;
 import com.wfd.recipes.service.RecipeService;
 
 import org.springframework.http.ResponseEntity;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,7 +18,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/recipe")
 public class RecipeController {
 
-  @Autowired
+
   private final RecipeService RecipeService;
 
   public RecipeController(RecipeService RecipeService) {
